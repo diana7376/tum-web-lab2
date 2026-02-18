@@ -96,3 +96,50 @@
     color: var(--muted);
     line-height: 1.5;
 }
+
+
+/* Volunteer Section Styling */
+.volunteer-cta {
+    padding: var(--space-2xl);
+    text-align: center;
+}
+
+.volunteer-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.volunteer-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: var(--space-md);
+}
+
+.volunteer-content p {
+    margin-bottom: var(--space-lg);
+    font-size: 1.1rem;
+}
+
+/* Form Styling - Matches your existing style.css forms */
+.registration-form-wrapper {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.volunteer-form .form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+}
+
+@media (max-width: 600px) {
+    .volunteer-form .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
