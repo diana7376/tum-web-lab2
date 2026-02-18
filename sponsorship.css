@@ -58,7 +58,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: var(--space-lg);
     margin-top: var(--space-xl);
-    align-items: start;
+    align-items: stretch;
 }
 
 .tier-card {
